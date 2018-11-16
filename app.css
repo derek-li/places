@@ -1,0 +1,62 @@
+body {
+	background-color: lightgrey;
+	font: 50px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: oblique;
+}
+
+button {
+	margin: 10;
+	padding: 10;
+	border: 10;
+	font: inherit;
+	font-size: 15px;
+	font-style: inherit;
+	color: grey;
+}
+
+#main h1 {
+	text-decoration: underline;
+	text-align: center;
+	font: inherit;
+	font-style: inherit;
+	color: grey;
+}
+
+#travel-plans {
+	position: fixed;
+	top: 475px;
+	left: 125px;
+	font: inherit;
+	font-size: 20px;
+	font-style: inherit;
+	color: grey;
+}
+
+#search-location {
+	position: absolute;
+	width: 800px;
+	left: 125px;
+	font: inherit;
+	font-size: 20px;
+	font-style: inherit;
+	color: grey;
+}
+
+#map {
+	height: 600px;
+	width: 600px;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+	left: 1000px;
+	bottom: 0px;
+}
+
+#wikiTitle {
+	color: grey;
+}
+
+#wikiText {
+	font-size: 15px;
+}
+
