@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Places</title>
+		<link rel="stylesheet" href="app.css">
+	</head>
+	<body>
+		<section id="main">
+			<h1>
+				Travel Planner
+			</h1>
+		</section>
+
+		<section id="travel-plans">
+			
+			Saved locations:
+
+			<p id="saved-locations"></p>
+
+		</section>
+
+		<section id="search-location">
+
+			Where are you going?
+
+			<div>
+				<input id="searchTextInput" type="text">
+			</div>
+
+			<!-- <div>
+				<input id="imageFileInput" type="file">
+			</div> -->
+
+			<div>
+				<button onclick="controller.handleInput()" id="search-button">Let's go!</button>
+			</div>
+			
+			<div>
+				<h2 id="wiki-title">
+				</h2>
+				<p id="wiki-text">
+				</p>
+			</div>
+
+		</section>
+
+		<div id="map"></div>
+		<script src="places.js"></script>    
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArUtmV0zK85PmOqKEnQ6bVDZAXysY1SWM&callback=initMap"></script>
+	</body>
+</html>
